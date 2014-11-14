@@ -72,6 +72,17 @@ rm -rf /Library/Application\ Support/Microsoft
 rm -f /private/var/db/receipts/com.microsoft.office*
 rm -rf /Users/*/Library/Application\ Support/Microsoft/Office
 rm -rf $DefaultLib/Application\ Support/Microsoft/Office
+rm -rf '/Library/Automator/*Excel*'
+rm -rf '/Library/Automator/*Office*'
+rm -rf '/Library/Automator/*Outlook*'
+rm -rf '/Library/Automator/*PowerPoint*'
+rm -rf '/Library/Automator/*Word*'
+rm -rf '/Library/Automator/Add New Sheet to Workbooks.action'
+rm -rf '/Library/Automator/Create List from Data in Workbook.action'
+rm -rf '/Library/Automator/Create Table from Data in Workbook.action'
+rm -rf '/Library/Automator/Get Parent Presentations of Slides.action'
+rm -rf '/Library/Automator/Get Parent Workbooks.action'
+rm -rf '/Library/Automator/Set Document Settings.action'
 rm -rf /Library/Fonts/Microsoft
 
 #Clean up
