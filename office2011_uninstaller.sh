@@ -29,6 +29,9 @@ then
 	exit 1
 fi
 
+# Turn of Database Daemon before we do any removal
+osascript -e 'tell application "Microsoft Database Daemon" to quit'
+
 #check to see if we're online
 if eval "ping -c 1 www.google.com"
 then
